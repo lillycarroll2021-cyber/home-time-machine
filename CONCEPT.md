@@ -26,11 +26,11 @@ These are hypotheses informed by the product opportunity, not findings from a co
 
 ## What is Home Time?
 
-**Home Time is a homeownership companion that makes mortgage progress visible, helps people explore practical ways to save, and connects their home to their future goals.**
+**Home Time is a homeownership companion that helps people make the most of owning a home, whatever comes next. It connects mortgage progress, future decisions and meaningful life goals, with everyday savings and rewards as supporting tools.**
 
 It's designed to feel more like a useful everyday consumer app than a traditional mortgage servicing journey.
 
-The heart of it is the **Home Time Machine**, a visual tool where people can change a payment amount and see how their mortgage balance, interest and projected mortgage-free date could change.
+A signature experience is the **Home Time Machine**, a visual tool where people can change a payment amount and see how their mortgage balance, interest and projected mortgage-free date could change.
 
 Around that are four connected experiences:
 
@@ -110,3 +110,12 @@ There are no live banks, retailers, credit services or reward transfers connecte
 **Read the detailed requirements:** https://github.com/lillycarroll2021-cyber/home-time-machine/blob/main/PRD.md
 
 *Home Time is an independent hackathon concept. It is not a live regulated product or an existing bank partnership.*
+
+
+## Updated distinction and positioning (October 2026)
+
+**Home Time is not primarily an overpayment or cashback app.** Its focus is helping people navigate the complete homeownership journey: understanding progress, preparing for mortgage renewal, considering a move, planning improvements and exploring becoming mortgage-free. Shopping rewards and bill savings are optional ways to help fund customers’ chosen goals.
+
+**Proposed USP:** *The homeownership app that grows with you.*
+
+The next product discovery priority is to make the Time Machine compare multiple paths (stay, move, renovate and pay off) with transparent customer-specific data and trade-offs, rather than treating every goal as an overpayment scenario. The current prototype demonstrates a direction; those deeper comparisons are not implemented yet.
