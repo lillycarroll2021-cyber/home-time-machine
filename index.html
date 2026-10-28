@@ -2,6 +2,43 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#142744"><title>Home Time — Make more of what's possible</title>
 <style>
 :root{--navy:#142744;--pink:#ff79b5;--mint:#b8f2d7;--bg:#f8f8f5;--ink:#142744;--grey:#647284}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 Arial,Helvetica,sans-serif}button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #176bd4;outline-offset:3px}button:disabled{opacity:.5;cursor:not-allowed}.app{max-width:780px;margin:auto;padding-bottom:90px}.header{background:var(--navy);color:white;padding:19px 20px 21px;border-radius:0 0 24px 24px}.brand{font-weight:900;font-size:29px;letter-spacing:-2px}.brand span{color:var(--pink)}.tiny{font-size:11px;text-transform:uppercase;letter-spacing:1.6px;font-weight:800}.header .tiny{color:#ffacd2}.hero h1{font-size:clamp(37px,8vw,60px);letter-spacing:-2.5px;line-height:1.05;margin:22px 0 10px}.hero h1 em{font-style:normal;color:var(--pink)}.hero p{color:#dce5ef;max-width:520px}.tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;background:white;padding:11px 5px;border-radius:18px;margin:14px 14px 0;position:sticky;top:0;z-index:5;box-shadow:0 5px 18px #14274412}.tabs button{border:0;background:transparent;color:#596a7f;font-size:12px;font-weight:700;min-height:44px;border-radius:11px;padding:7px 1px}.tabs button[aria-selected=true]{background:var(--navy);color:white}.section{padding:15px;display:none}.section.active{display:block}.card{background:white;border-radius:23px;padding:22px;margin-bottom:13px;box-shadow:0 2px 5px #14274406}.blush{background:#fce5f0}.mint{background:#dff6ea}.dark{background:var(--navy);color:white}.grey{color:var(--grey)}.dark .grey{color:#cfdaeb}h2{font-size:29px;line-height:1.11;letter-spacing:-1px;margin:8px 0 15px}h3{font-size:20px;line-height:1.2;letter-spacing:-.5px;margin:6px 0 8px}.value{font-size:clamp(32px,9vw,44px);font-weight:900;letter-spacing:-2px;margin:5px 0}.pink{color:#d7337e}.dark .pink{color:var(--pink)}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.micro{font-size:12px;line-height:1.45}.stat{font-size:clamp(20px,6vw,28px);font-weight:800;letter-spacing:-1px}.cta{border:0;border-radius:100px;background:var(--pink);padding:13px 19px;font-weight:800;color:var(--navy);min-height:45px}.outline{border:1.5px solid #94a3b5;border-radius:100px;background:transparent;padding:11px 16px;font-weight:700;color:inherit;min-height:44px}.row{display:flex;align-items:center;justify-content:space-between;gap:12px}.stack{display:grid;gap:12px}.range{width:100%;min-height:37px;accent-color:#e94f94;margin:10px 0}.meter{height:12px;background:#ead4e1;border-radius:20px;overflow:hidden}.meter span{display:block;height:100%;width:29%;background:#e94f94}.reward{border:1px solid #e2e6e9;border-radius:17px;padding:15px;background:white}.reward strong{display:block}.reward p{font-size:13px;color:#627284;margin:5px 0 12px}.badge{font-size:10px;border-radius:90px;background:#e2f8ec;padding:5px 9px;font-weight:800}.choice{background:white;border:2px solid #e2e6eb;border-radius:16px;padding:15px;text-align:left;color:var(--ink);font-weight:700;min-height:70px}.choice[aria-pressed=true]{border-color:#e94f94;background:#fff0f6}.field{display:grid;gap:6px;margin:12px 0}.field label{font-weight:700;font-size:14px}.field input{width:100%;border:1px solid #aebdca;border-radius:10px;min-height:46px;padding:10px}.result{border-radius:17px;padding:16px;background:#fce5f0}.notice{font-size:12px;color:#5b6572;line-height:1.55}.hidden{display:none!important}.toast{padding:11px 15px;border-radius:12px;background:#e4f4ec;margin:8px 0}.footer{padding:0 19px 30px}.screenreader{position:absolute;left:-9999px}@media(max-width:350px){.tabs button{font-size:10px}.grid{grid-template-columns:1fr}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+/* Home Time V2 spacing refinement */
+.app{padding-bottom:100px}
+.header{padding:24px 22px 30px}
+.hero h1{margin:25px 0 18px}
+.hero p{margin:0 0 12px;line-height:1.65}
+.tabs{margin:12px 12px 0;padding:7px 5px;gap:3px;border-radius:15px}
+.tabs button{padding:11px 3px;line-height:1.25;overflow-wrap:anywhere}
+.section{padding:18px 16px 10px}
+.card{padding:23px 21px;margin-bottom:16px}
+.card>:first-child{margin-top:0}
+.card>:last-child{margin-bottom:0}
+h2{margin:12px 0 16px;line-height:1.16}
+h3{margin:9px 0 11px}
+p{margin:10px 0 16px}
+.eyebrow{line-height:1.5}
+.grid{gap:14px}
+.stack{gap:14px}
+.reward{padding:17px}
+.reward p{margin:8px 0 15px}
+.row{gap:14px}
+.range{margin:17px 0 13px}
+.result{margin-top:17px;padding:19px}
+.field{margin:16px 0}
+.field label{margin-bottom:2px}
+.choice{padding:16px;line-height:1.35}
+.notice{margin:12px 0}
+.footer{padding:12px 20px 34px}
+@media(max-width:450px){
+.header{padding:22px 19px 27px}
+.tabs{margin:10px 9px 0;gap:2px}
+.tabs button{font-size:11px;padding:10px 2px}
+.section{padding:14px 12px 8px}
+.card{padding:20px 17px;margin-bottom:13px;border-radius:20px}
+h2{font-size:26px}
+.grid{gap:10px}
+.stat{overflow-wrap:anywhere}
+}
 </style></head><body><div class="app"><header class="header"><div class="row"><div class="brand">home<span>time.</span></div><span class="tiny">Interactive concept</span></div><div class="hero"><h1>Make more of<br><em>what's possible.</em></h1><p>Find new ways to save, collect rewards and see how your choices could shape your mortgage future.</p></div></header>
 <nav class="tabs" role="tablist" aria-label="Home Time sections"><button role="tab" aria-selected="true" data-tab="home">Home</button><button role="tab" aria-selected="false" data-tab="earn">Earn</button><button role="tab" aria-selected="false" data-tab="machine">Time Machine</button><button role="tab" aria-selected="false" data-tab="pay">Pay off</button><button role="tab" aria-selected="false" data-tab="future">My Future</button></nav>
 <section id="home" class="section active" role="tabpanel"><div class="card blush"><div class="tiny">Your home today · Demo</div><div class="value">£80,000</div><p>Estimated equity in your home</p><div class="meter"><span></span></div><p class="micro">£280,000 estimated property value · £200,000 mortgage balance</p></div><div class="card"><div class="tiny pink">Make your money work harder</div><h2>Your rewards could become mortgage progress.</h2><p class="grey">Explore voucher rewards, everyday savings and what paying a little extra could mean.</p><button class="cta" data-go="earn">Explore ways to earn ↗</button></div><div class="card mint"><div class="tiny">Home Time Machine</div><h2>See a different future.</h2><p>Move through the years, adjust your payments and see your projected mortgage balance change.</p><button class="outline" data-go="machine">Open Time Machine →</button></div></section>
